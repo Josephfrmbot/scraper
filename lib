@@ -1,1 +1,11 @@
+require 'rubygems'
+require 'nokogiri'
+require 'open-uri'
+
+#get all the currencies
+url = 'https://coinmarketcap.com/all/views/all/'
+page = Nokogiri::HTML(open('url'))
+
+# put all the currencies in a new hash
+currrencies = array.new
 
