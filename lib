@@ -7,5 +7,5 @@ url = 'https://coinmarketcap.com/all/views/all/'
 page = Nokogiri::HTML(open('url'))
 
 # put all the currencies in a new hash
-currrencies = array.new
+currrencies = Hash.new
 
